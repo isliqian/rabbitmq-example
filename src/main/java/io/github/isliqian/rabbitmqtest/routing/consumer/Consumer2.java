@@ -12,7 +12,7 @@ import java.util.concurrent.TimeoutException;
  */
 public class Consumer2 {
 
-    private static final  String QUEUE = "rabbit_subscribe";
+    private static final  String QUEUE = "rabbit_routing";
 
     private static final String EX_CHANGE = "rabbit_ex_routing";
 

@@ -12,9 +12,9 @@ import java.util.concurrent.TimeoutException;
  */
 public class Consumer2 {
 
-    private static final  String QUEUE = "rabbit_subscribe";
+    private static final  String QUEUE = "rabbit_topic";
 
-    private static final String EX_CHANGE = "rabbit_ex_routing";
+    private static final String EX_CHANGE = "rabbit_ex_topic";
 
     public static void main(String args[]) throws IOException, TimeoutException {
         //创建connectionFactory,并进行配置
